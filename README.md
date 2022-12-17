@@ -4,9 +4,7 @@
 
 Given a small JSON config file that includes a path to a C header file and a path to dynamic library file, it generates a javascript binding library to ease working with the native library.
 
-This project is *experimental*, it has managed to create working bindings for [GLFW](https://www.glfw.org/) and [Vulkan](https://www.vulkan.org/), but there are key features not implemented, and it's highly likely you will find bugs.
-
-Additionally, some key features are missing, like generating typescript type definitions.
+This project is *experimental*, it has managed to create [working](https://github.com/davidmanzanares/vulkan_bun_helloworld) bindings for [GLFW](https://github.com/davidmanzanares/glfw4bun) and [Vulkan](https://github.com/davidmanzanares/vulkan4bun), but there are key features not implemented, and it's highly likely you will find bugs.
 
 ## Features
 
@@ -42,7 +40,7 @@ The provided header file is parsed with [pycparser](https://github.com/eliben/py
 
 The AST is then processed to detect type definitions and function prototypes.
 
-The last steps consists on generating code to ease working with the detected types and functions.
+The last step consists in generating code to ease working with the detected types and functions.
 
 ## Wrapped pointers
 
