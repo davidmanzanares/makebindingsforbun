@@ -1,0 +1,22 @@
+{
+  "name": "makebindingsforbun",
+  "author": "David M.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Binding generator for Bun. Code generator util to create FFI utils over a native library.",
+  "keywords": [
+    "bun",
+    "binding",
+    "ffi"
+  ],
+  "bin": {
+    "makebindingsforbun": "./index.ts"
+  },
+  "engines": {
+    "bun": ">=0.3.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.3.0"
+  }
+}
